@@ -1,4 +1,4 @@
-# 🏥 Smartpolici4 - Sistem Manajemen Klinik dengan CodeIgniter 4
+# 🏥 Smartpolici4 - Sistem Manajemen Poli dengan CodeIgniter 4
 
 ## 📊 Gambaran Proyek
 Smartpolici4 adalah sistem manajemen Poli berbasis web yang dirancang untuk mendukung operasional Poli, termasuk manajemen pasien, rekam medis, administrasi dan lain sebagainya. Sistem ini dibangun menggunakan Frame Work CodeIgniter 4.5.5 .
