@@ -79,4 +79,4 @@ composer update
 - **Pelaporan**: Laporan data pasien dan aktivitas klinik.
 
 ---
-**Developed by [Gullam Almuzadid - A11.2021.13743]** 🚀
+**Developed by [Irfan Fauzia Rahman - A11.2021.13631]** 🚀
