@@ -1,7 +1,7 @@
 # 🏥 Smartpolici4 - Sistem Manajemen Klinik dengan CodeIgniter 4
 
 ## 📊 Gambaran Proyek
-Smartpolici4 adalah sistem manajemen klinik berbasis web yang dirancang untuk mendukung operasional klinik, termasuk manajemen pasien, rekam medis, dan administrasi lainnya. Sistem ini dibangun menggunakan CodeIgniter 4.
+Smartpolici4 adalah sistem manajemen Poli berbasis web yang dirancang untuk mendukung operasional Poli, termasuk manajemen pasien, rekam medis, administrasi dan lain sebagainya. Sistem ini dibangun menggunakan Frame Work CodeIgniter 4.5.5 .
 
 ## 🖥️ Persyaratan Sistem
 
@@ -30,10 +30,10 @@ cp env .env
 Edit file `.env` dengan pengaturan aplikasi Anda, khususnya bagian database:
 ```env
 # Database Configuration
-database.default.hostname = 127.0.0.1
-database.default.database = smartpolici4
+database.default.hostname = localhost
+database.default.database = smartpoly
 database.default.username = root
-database.default.password = passwordanda
+database.default.password = 
 database.default.DBDriver = MySQLi
 ```
 
@@ -49,7 +49,7 @@ Jika file SQL disediakan dalam arsip:
 1. Buat database baru:
 ```bash
 mysql -u root -p
-CREATE DATABASE smartpolici4;
+CREATE DATABASE smartpoly;
 exit;
 ```
 
@@ -61,10 +61,10 @@ mysql -u root -p smartpolici4 < path/ke/database.sql
 ### 5. Jalankan Aplikasi
 Gunakan command berikut untuk menjalankan server pengembangan:
 ```bash
-php spark serve --port=8081
+php spark serve --port=8080
 ```
 
-🌐 Akses aplikasi di: `http://localhost:8081`
+🌐 Akses aplikasi di: `http://localhost:8080`
 
 ## 🛠️ Pengembangan
 ### Komposer
